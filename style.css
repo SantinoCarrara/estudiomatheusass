@@ -1,0 +1,342 @@
+*  {
+    margin: 0;
+	padding: 0;
+    overflow-x: hidden;
+}
+
+p {
+    line-height: 1.5;
+}
+
+header {
+    background-color: #EB9007;
+    padding-bottom: 20px;
+    
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    /* background-image: url("./assets/cssimg/bg.png"); */
+    background-color: #B0B0B0;
+}
+
+footer {
+    background-color: #EB9007;
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border-top: 3px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 0 5px;
+}
+
+nav a {
+    display: flex;
+    justify-content: end;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.black {
+    color: black;
+}
+
+.titleP {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: rgb(223, 223, 223);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 20px 50px -12px rgba(0, 0, 0, 0.5);
+    max-width: fit-content;
+    transition: transform 0.3ms;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+  
+
+.card__header {
+    width: 100%;
+    position: relative;
+}
+
+.spaceTop {
+    padding-top: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card a {
+    background-color: #EB9007;
+    color: black;
+    width: 92%;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.card__header small {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #242424;
+    padding: 8px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.card__description {
+    margin-bottom: 30px;
+}
+
+/*
+.card__link {
+    background-color: #EB9007;
+    color: black;
+    width: 92%;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+*/
+.card a:hover {
+    background-color: #1e223c;
+    color: white;
+}
+
+.prop {
+    display: grid;
+}
+
+.prop__grid { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 20px; 
+    padding-top: 20px; 
+    gap: 25px;
+}
+
+.linea {
+    display: inline;
+}
+
+.bloque {
+    display: block;
+}
+
+.ocultar {
+    display: none;
+}
+
+.link {
+    display: flex;
+    justify-content: end;
+    color: black;
+}
+
+.lkSon {
+    color: black;
+    display: inline;
+}
+
+/*
+.lkV2 {
+    
+}
+*/
+
+.linkAc {
+    display: flex;
+    justify-content: end;
+    color: black;
+}
+
+
+/* .subt {
+    position: relative;
+    left: 75px;
+    top: 10px;
+}  
+*/
+.logo {
+    position: absolute;
+    padding-top: 18px;
+    padding-left: 20px;
+}
+/*
+.topTxt {
+     position: relative;
+     left: 75px;
+     top: 15px;
+}
+*/
+
+.logoAj {
+    position: absolute;
+    padding-top: 18px;
+    padding-left: 20px;
+}
+
+.linkBp {
+    display: flex;
+    justify-content: end;
+    color: black;
+}
+
+.logoBp {
+    position: absolute;
+    padding-top: 18px;
+    padding-left: 20px;
+}
+
+.footerSep {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__redes {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.topHl {
+    position: relative;
+    left: 75px;
+    top: 10px;
+}
+
+.topH2 {
+    display: inline;
+    position: relative;
+    left: 75px;
+    top: 20px;
+}
+
+/*.prop {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+*/
+
+.form {
+    display: flex;
+    justify-content: end;
+    background-color: rgb(223, 223, 223);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 20px 50px -12px rgba(0, 0, 0, 0.5);
+    max-width: fit-content;
+}
+
+.conRedes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media (max-width: 540px) {
+    .linkAc {
+        display: none;
+}
+
+.logoAj {
+    padding-top: 8px;
+}
+}
+
+
+@media (min-width: 785px) {
+    .prop__grid {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 440px) {
+    .prop__grid { 
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footerSep {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .footer__redes {
+        padding-left: 10px;
+    }
+
+    .lkV2 {
+        display: none;
+    }
+
+    .spaceTop {
+        padding-top: 20px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .prop__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 387px) {
+.prop__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 865px) {  
+    .link {
+      display: none;
+    }
+}
+
+@media (max-width: 655px) {
+    .linkBp {
+        display: none;
+    }
+
+    .logoBp {
+        padding-top: 8px;
+    }
+
+}
