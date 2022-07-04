@@ -67,11 +67,6 @@ nav a {
     border-radius: 15px;
     box-shadow: 0 20px 50px -12px rgba(0, 0, 0, 0.5);
     max-width: fit-content;
-    transition: transform 0.3ms;
-}
-
-.card:hover {
-    transform: translateY(-10px);
 }
   
 
@@ -97,7 +92,6 @@ nav a {
     border-radius: 15px;
     padding: 15px;
     text-align: center;
-    transition: background-color 0.3s;
 }
 
 .card__header small {
@@ -127,10 +121,6 @@ nav a {
     transition: background-color 0.3s;
 }
 */
-.card a:hover {
-    background-color: #1e223c;
-    color: white;
-}
 
 .prop {
     display: grid;
