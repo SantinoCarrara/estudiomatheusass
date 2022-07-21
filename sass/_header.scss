@@ -1,0 +1,29 @@
+header {
+    background-color: #EB9007;
+    padding-bottom: 20px;
+    
+}
+
+.topHl {
+    position: relative;
+    left: 75px;
+    top: 10px;
+}
+
+.linkAc {
+    display: flex;
+    justify-content: end;
+    color: black;
+}
+
+.logo {
+    border-radius: 15px;
+    box-shadow: 0 20px 50px -12px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.logo:active {
+    box-shadow: 2px 2px 5px #242424;
+}

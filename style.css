@@ -1,63 +1,3 @@
-*  {
-    margin: 0;
-	padding: 0;
-    overflow-x: hidden;
-}
-
-p {
-    line-height: 1.5;
-}
-
-header {
-    background-color: #EB9007;
-    padding-bottom: 20px;
-    
-}
-
-body {
-    font-family: 'Lato', sans-serif;
-    /* background-image: url("./assets/cssimg/bg.png"); */
-    background-color: #B0B0B0;
-}
-
-footer {
-    background-color: #EB9007;
-    font-size: 15px;
-    padding-bottom: 5px;
-    padding-right: 5px;
-    border-top: 3px solid black;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
-}
-
-ul li {
-    margin: 0 5px;
-}
-
-ul li a {
-    transition: 00.1s;
-}
-
-ul li a:hover {
-    color: #8c8c8c;
-}
-
-nav a {
-    display: flex;
-    justify-content: end;
-    color: black;
-    transition: 00.3s;
-}
-
-nav a:hover {
-    color: #8c8c8c;
-}
 
 .hero {
     background-image: linear-gradient(90deg, #8c8c8c, #a7a7a7);
@@ -153,7 +93,7 @@ nav a:hover {
     color: white;
 }
 
-.card__header small {
+.card__header--strong {
     background-color: rgba(255, 255, 255, 0.5);
     color: #242424;
     padding: 8px;
@@ -217,6 +157,11 @@ nav a:hover {
     display: flex;
     justify-content: end;
     color: black;
+}
+
+.link-instagram {
+    font-size: 10px;
+    margin: 5px;
 }
 
 .lkSon {
